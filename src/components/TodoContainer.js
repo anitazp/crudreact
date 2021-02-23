@@ -13,7 +13,7 @@ function TodoContainer() {
 
     //GET
     const getData=async()=>{
-        const res = await axios.get('http://todos-academlo.herokuapp.com/api/todos')
+        const res = await axios.get('https://todos-academlo.herokuapp.com/api/todos')
         setIsTodo(res.data.todos)
         console.log(res.data.todos)
     }
