@@ -1,0 +1,19 @@
+
+.input{
+    text-align: center;
+    width: 80%;
+    margin: .5rem 0;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #fcf9f9;
+}
+.input button{
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #fcf9f9;
+    color: #4169e1;
+    background-color: #6462622a;
+}
